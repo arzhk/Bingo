@@ -13,15 +13,18 @@ window.onload = function () {
 };
 
 function randomiseNumber() {
-  let randomNumber = Math.floor(Math.random() * 76);
+  let randomNumber = Math.round(Math.random() * 76);
   let numberArray = document.querySelectorAll(".numberCell");
   let red = document.querySelectorAll(".red");
 
-  while (numberArray[parseInt(randomNumber)].className === "red") {
-    let randomNumber = Math.floor(Math.random() * 76);
-    console.log("number was duplicate");
-  }
   const numberHolder = document.querySelector("#randomNumber h2");
   numberHolder.innerText = randomNumber;
   numberArray[parseInt(randomNumber) - 1].classList.add("red");
+}
+
+function clearBoard() {
+  let redArray = document.querySelectorAll(".red");
+  for (let i = 0; i < redArray.length; i++) {
+    redArray[i].classList.remove("red");
+  }
 }
