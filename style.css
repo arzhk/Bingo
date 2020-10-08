@@ -79,22 +79,37 @@ h3 {
   color: #fff;
   text-shadow: #1b1b1b34 1px 1px 5px;
   border: none;
-  background-color: #fbab7e;
-  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+  background-color: #424242;
   padding: 20px;
   border-radius: 40px;
   font-weight: bold;
   cursor: pointer;
-  margin-left: 40px;
   transition: all 0.25s ease;
 }
 
 #randomiseButton:hover {
   width: 190px;
-  color: #1b1b1b;
   transition: all 0.25s ease;
-  background-color: #ff8a50;
-  background-image: linear-gradient(62deg, #ff8a50 0%, #ffc63a 100%);
+  background-color: #252525;
+}
+
+#clearButton {
+  width: 180px;
+  color: #fff;
+  text-shadow: #1b1b1b34 1px 1px 5px;
+  border: none;
+  background-color: #424242;
+  padding: 20px;
+  border-radius: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+#clearButton:hover {
+  width: 190px;
+  transition: all 0.25s ease;
+  background-color: #252525;
 }
 
 .red {
