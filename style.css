@@ -125,7 +125,8 @@ h3 {
 }
 
 .red {
-  background-color: red;
+  background-color: #ff6a6c;
+  background-image: linear-gradient(180deg, #ff6a6c 0%, #ff2f4c 100%);
   display: inline-block;
   color: #fff;
   height: 50px;
